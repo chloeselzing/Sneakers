@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica sans-serif;
+    margin: 0 200px;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav-links a, img{
+align-items: center;
+margin-right: 20px;
+text-decoration: none;
+color: #777676;
+}
+#avatar{
+    border-radius: 50px;
+    width: 30px;
+}
+main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+#firstImg{
+    width: 390px;
+    height: 400px;
+    border-radius: 20px;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+}
+#hr{
+
+    border: .1px solid rgb(246, 246, 247);
+}
+.row img{
+    border-radius: 10px;
+    margin: 1px;
+    width: 80px;
+
+}
+.main-right{
+    padding-top: 50px;
+}
+h4{
+    color: #D7681F;
+    padding-bottom: 20px;
+}
+.main{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.text{
+    line-height: 26px;
+    color: #777676;
+}
+.price{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 0px;
+    margin-top: 15px;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+}
+#percentage{
+    color: #D7681F;
+    background-color:#f5cdaa;
+    padding: 4px;
+    justify-self: center;
+    border-radius: 5px;
+}
+#actual{
+    color: #777676;
+    padding: 20px 0px;
+}
+.main-last{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+}
+.first{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    font-weight: bolder;
+    width: 150px;
+    background-color: #F7F8FD;
+    height: 30px;
+    align-items: center;
+}
+#minus{
+    margin: 7px;
+}
+#plus{
+    margin:2px;
+}
+button{
+    background-color: #D7681F;
+    border: none;
+    height: fit-content;
+    font-weight: bolder;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button img{
+    width: 12px;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
